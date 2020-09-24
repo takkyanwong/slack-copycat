@@ -1,0 +1,39 @@
+.username, .channel {
+  display: flex;
+  align-items: center;
+}
+
+.username span, .channel span {
+  opacity: 0.3;
+}
+
+.status-online {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: greenyellow;
+  margin-top: 2px;
+  margin-right: 8px;
+}
+
+.status-offline {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgb(255, 50, 47);
+  margin-top: 2px;
+  margin-right: 8px;
+}
+
+.channel i {
+  margin-right: 4px;
+}
+
+.active_channel {
+  opacity: 1;
+}
+
+.btn-primary {
+	background-color: #7aae3d;
+	border-color: #7aae3d;
+}
